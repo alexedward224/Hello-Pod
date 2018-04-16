@@ -6,6 +6,8 @@
 //
 package com.stewartandrews.application.serviceinterfaces;
 
+import feign.RequestLine;
+
 /**
  * This interface declares the operations that a concrete class must implement.
  * 
@@ -14,6 +16,7 @@ package com.stewartandrews.application.serviceinterfaces;
  */
 public interface HelloService
 {
+  @RequestLine("GET /hello/sayHello")
   String sayHello();
 }
 
