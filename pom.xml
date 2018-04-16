@@ -179,7 +179,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>hello-pod</finalName>
+		<!-- <finalName>hello-pod</finalName> -->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
