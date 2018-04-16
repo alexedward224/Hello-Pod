@@ -2,7 +2,7 @@ info:
   name: Provider Onboarding
 
 server:
-  port: ${PORT:9080}
+  port: ${PORT:8080}
 logging:
   level:
     com.stewartandrews: trace
